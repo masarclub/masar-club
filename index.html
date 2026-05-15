@@ -241,7 +241,7 @@
             <!-- Cards Grid -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mb-16">
                 <!-- Card 1 -->
-                <div onclick="window.location.hash='join'" class="hover-lift cursor-pointer bg-white/50 dark:bg-gray-800/50 backdrop-blur border border-gray-200 dark:border-gray-700 p-6 rounded-3xl text-center icon-bounce shadow-sm hover:shadow-2xl hover:shadow-green-500/40 dark:hover:shadow-green-400/40 transition-all duration-300">
+                <div onclick="navigateTo('join')" class="hover-lift cursor-pointer bg-white/50 dark:bg-gray-800/50 backdrop-blur border border-gray-200 dark:border-gray-700 p-6 rounded-3xl text-center icon-bounce shadow-sm hover:shadow-2xl hover:shadow-green-500/40 dark:hover:shadow-green-400/40 transition-all duration-300">
                     <div class="w-16 h-16 mx-auto bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 rounded-full flex items-center justify-center mb-4 transition-colors">
                         <i class="ph ph-user-plus text-3xl"></i>
                     </div>
@@ -249,7 +249,7 @@
                     <p class="text-sm text-gray-500 dark:text-gray-400">كن جزءاً من التغيير.</p>
                 </div>
                 <!-- Card 2 -->
-                <div onclick="window.location.hash='location'" class="hover-lift cursor-pointer bg-white/50 dark:bg-gray-800/50 backdrop-blur border border-gray-200 dark:border-gray-700 p-6 rounded-3xl text-center icon-bounce shadow-sm hover:shadow-2xl hover:shadow-red-500/40 dark:hover:shadow-red-400/40 transition-all duration-300">
+                <div onclick="navigateTo('location')" class="hover-lift cursor-pointer bg-white/50 dark:bg-gray-800/50 backdrop-blur border border-gray-200 dark:border-gray-700 p-6 rounded-3xl text-center icon-bounce shadow-sm hover:shadow-2xl hover:shadow-red-500/40 dark:hover:shadow-red-400/40 transition-all duration-300">
                     <div class="w-16 h-16 mx-auto bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400 rounded-full flex items-center justify-center mb-4 transition-colors">
                         <i class="ph ph-map-pin text-3xl"></i>
                     </div>
@@ -257,7 +257,7 @@
                     <p class="text-sm text-gray-500 dark:text-gray-400">زرنا في مقرنا الرسمي.</p>
                 </div>
                 <!-- Card 3 -->
-                <div onclick="window.location.hash='about'" class="hover-lift cursor-pointer bg-white/50 dark:bg-gray-800/50 backdrop-blur border border-gray-200 dark:border-gray-700 p-6 rounded-3xl text-center icon-bounce shadow-sm hover:shadow-2xl hover:shadow-blue-500/40 dark:hover:shadow-blue-400/40 transition-all duration-300">
+                <div onclick="navigateTo('about')" class="hover-lift cursor-pointer bg-white/50 dark:bg-gray-800/50 backdrop-blur border border-gray-200 dark:border-gray-700 p-6 rounded-3xl text-center icon-bounce shadow-sm hover:shadow-2xl hover:shadow-blue-500/40 dark:hover:shadow-blue-400/40 transition-all duration-300">
                     <div class="w-16 h-16 mx-auto bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-full flex items-center justify-center mb-4 transition-colors">
                         <i class="ph ph-users-three text-3xl"></i>
                     </div>
@@ -265,7 +265,7 @@
                     <p class="text-sm text-gray-500 dark:text-gray-400">تعرف على فريقنا.</p>
                 </div>
                 <!-- Card 4 -->
-                <div onclick="window.location.hash='goals'" class="hover-lift cursor-pointer bg-white/50 dark:bg-gray-800/50 backdrop-blur border border-gray-200 dark:border-gray-700 p-6 rounded-3xl text-center icon-bounce shadow-sm hover:shadow-2xl hover:shadow-purple-500/40 dark:hover:shadow-purple-400/40 transition-all duration-300">
+                <div onclick="navigateTo('goals')" class="hover-lift cursor-pointer bg-white/50 dark:bg-gray-800/50 backdrop-blur border border-gray-200 dark:border-gray-700 p-6 rounded-3xl text-center icon-bounce shadow-sm hover:shadow-2xl hover:shadow-purple-500/40 dark:hover:shadow-purple-400/40 transition-all duration-300">
                     <div class="w-16 h-16 mx-auto bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 rounded-full flex items-center justify-center mb-4 transition-colors">
                         <i class="ph ph-target text-3xl"></i>
                     </div>
@@ -434,7 +434,7 @@
                         <h3 class="font-bold text-lg mb-4">الوصول السريع</h3>
                         <div class="bg-white p-2 rounded-xl shadow-sm mb-4">
                             <!-- Placeholder QR. Replace src with actual QR -->
-                            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://masarclub.github.io/masar-club/#join" alt="QR Code" class="w-32 h-32 rounded-lg pointer-events-none">
+                            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://masarclub.netlify.app/#join" alt="QR Code" class="w-32 h-32 rounded-lg pointer-events-none">
                         </div>
                         <p class="text-sm text-gray-500 dark:text-gray-400 font-semibold">امسح الرمز عبر جهاز آخر للوصول السريع إلى صفحة الإنضمام للفريق.</p>
                     </div>
@@ -857,7 +857,7 @@
              <i class="ph ph-device-mobile text-5xl text-blue-500 mb-2"></i>
              <h3 class="font-black text-lg mb-4">الوصول السريع</h3>
              <div class="bg-white p-2 rounded-xl inline-block mb-4 shadow-sm border border-gray-100 dark:border-gray-700">
-                 <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://masarclub.dz/#join" alt="Join QR" class="w-32 h-32 rounded-lg pointer-events-none">
+                 <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://masarclub.netlify.app/#join" alt="Join QR" class="w-32 h-32 rounded-lg pointer-events-none">
              </div>
              <p class="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-6">امسح الرمز عبر جهاز آخر للوصول السريع إلى صفحة الانضمام.</p>
              <button onclick="closeCustomModal('qr-modal')" class="bg-gray-200 dark:bg-gray-700 font-bold py-2 px-6 rounded-xl w-full hover:scale-105 transition">إغلاق</button>
@@ -927,37 +927,34 @@
             }
         });
 
-        // --- URL ROUTING (HASH NAVIGATION) ---
-        
-        // Listen to URL changes
-        window.addEventListener('hashchange', handleHash);
-        
-        // Check hash on page load
-        window.addEventListener('DOMContentLoaded', () => {
-            if(!window.location.hash) {
-                window.location.hash = 'home';
-            } else {
-                handleHash();
-            }
-        });
+        // --- CLEAN ROUTING (NO #) ---
+function navigateTo(path, addToHistory = true) {
+    // remove leading slash if present
+    const cleanPath = path.replace(/^\//, '');
+    const validPages = ['home', 'join', 'location', 'about', 'goals'];
+    const page = validPages.includes(cleanPath) ? cleanPath : 'home';
+    
+    if (addToHistory) {
+        history.pushState({ page }, '', `/${page}`);
+    }
+    renderPage(`page-${page}`);
+}
 
-        function handleHash() {
-            // Get string after '#'
-            let hash = window.location.hash.substring(1);
-            const validPages = ['home', 'join', 'location', 'about', 'goals'];
-            
-            // Default to home if hash is invalid
-            if (!validPages.includes(hash)) {
-                hash = 'home';
-                history.replaceState(null, null, '#home');
-            }
-            
-            renderPage('page-' + hash);
-        }
+function handlePopState(event) {
+    const path = window.location.pathname.substring(1) || 'home';
+    navigateTo(path, false);
+}
 
-        function goHome() {
-            window.location.hash = 'home';
-        }
+// Initial load
+window.addEventListener('DOMContentLoaded', () => {
+    const initialPath = window.location.pathname.substring(1) || 'home';
+    navigateTo(initialPath, false);
+    window.addEventListener('popstate', handlePopState);
+});
+
+function goHome() {
+    navigateTo('home');
+}
 
         function renderPage(pageId) {
             // Hide all
